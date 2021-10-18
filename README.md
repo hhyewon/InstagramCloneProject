@@ -2,10 +2,12 @@
 > 꾸준히 열심히 하며 크게 꿈 꾸기😎
 
 <br />
-# 📌 ERD & API Sheet
-> ### [Instagram API](https://docs.google.com/spreadsheets/d/1Zj9YN4jroKDGlW3W5ODteqsv8G1qOXWY/edit#gid=990061567) 
-> ### [ERD URL](https://aquerytool.com/aquerymain/index/?rurl=73a176e1-bc7c-4a04-8531-d5aa169be98b&) 
+
+# 📌 ERD & API Sheet    
+> ### [Instagram API](https://docs.google.com/spreadsheets/d/1Zj9YN4jroKDGlW3W5ODteqsv8G1qOXWY/edit#gid=990061567)     
+> ### [ERD URL](https://aquerytool.com/aquerymain/index/?rurl=73a176e1-bc7c-4a04-8531-d5aa169be98b&)     
 >> 🔑 Password : da430a
+
 <br />
 
 # 📌 Plan
