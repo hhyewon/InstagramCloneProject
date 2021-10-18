@@ -1,3 +1,13 @@
-# android-kotlin
+# Instagram clone project
 
-Kotlin ver
+<개발 범위> - 인스타 
+
+1.	피드
+A.	글 올리기
+B.	게시글 조회하기
+C.	내 인스타 보기
+D.	좋아여
+2.	내 게시물
+A.	팔로우, 팔로워 //유저
+3.	검색
+4.	스토리
