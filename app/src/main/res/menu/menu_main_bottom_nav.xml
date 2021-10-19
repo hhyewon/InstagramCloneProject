@@ -24,4 +24,19 @@
         android:enabled="true"
         android:title="test" />
 
+    <item
+        android:id="@+id/menu_main_btm_nav_4"
+        android:icon="@drawable/ic_setting_view_unselected"
+        app:showAsAction="always"
+        android:enabled="true"
+        android:title="test" />
+
+
+    <item
+        android:id="@+id/menu_main_btm_nav_5"
+        android:icon="@drawable/ic_setting_view_unselected"
+        app:showAsAction="always"
+        android:enabled="true"
+        android:title="test" />
+
 </menu>
