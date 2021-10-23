@@ -6,6 +6,8 @@ import com.softsquared.template.kotlin.R
 import com.softsquared.template.kotlin.config.BaseActivity
 import com.softsquared.template.kotlin.databinding.ActivityMainBinding
 import com.softsquared.template.kotlin.src.main.home.HomeFragment
+import com.softsquared.template.kotlin.src.main.home.SearchFragment
+import com.softsquared.template.kotlin.src.main.home.ShopFragment
 import com.softsquared.template.kotlin.src.main.myPage.MyPageFragment
 import com.softsquared.template.kotlin.src.main.test.TestFragment
 
@@ -27,18 +29,31 @@ class MainActivity : BaseActivity<ActivityMainBinding>(ActivityMainBinding::infl
                             .commitAllowingStateLoss()
                         return@OnNavigationItemSelectedListener true
                     }
+                    R.id.menu_main_btm_nav_search -> {
+                        supportFragmentManager.beginTransaction()
+                            .replace(R.id.main_frm, SearchFragment())
+                            .commitAllowingStateLoss()
+                        return@OnNavigationItemSelectedListener true
+                    }
+                    R.id.menu_main_btm_nav_reels -> {
+                        supportFragmentManager.beginTransaction()
+                            .replace(R.id.main_frm, TestFragment())
+                            .commitAllowingStateLoss()
+                        return@OnNavigationItemSelectedListener true
+                    }
+                    R.id.menu_main_btm_nav_shop -> {
+                        supportFragmentManager.beginTransaction()
+                            .replace(R.id.main_frm, ShopFragment())
+                            .commitAllowingStateLoss()
+                        return@OnNavigationItemSelectedListener true
+                    }
                     R.id.menu_main_btm_nav_my_page -> {
                         supportFragmentManager.beginTransaction()
                             .replace(R.id.main_frm, MyPageFragment())
                             .commitAllowingStateLoss()
                         return@OnNavigationItemSelectedListener true
                     }
-                    R.id.menu_main_btm_nav_test -> {
-                        supportFragmentManager.beginTransaction()
-                            .replace(R.id.main_frm, TestFragment())
-                            .commitAllowingStateLoss()
-                        return@OnNavigationItemSelectedListener true
-                    }
+
                 }
                 false
             })

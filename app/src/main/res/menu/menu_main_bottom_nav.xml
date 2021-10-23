@@ -10,26 +10,26 @@
         android:checkable="true" />
 
     <item
-        android:id="@+id/menu_main_btm_nav_my_page"
+        android:id="@+id/menu_main_btm_nav_search"
         android:icon="@drawable/bn2"
         app:showAsAction="always"
         android:enabled="true"/>
 
     <item
-        android:id="@+id/menu_main_btm_nav_test"
+        android:id="@+id/menu_main_btm_nav_reels"
         android:icon="@drawable/bn3"
         app:showAsAction="always"
         android:enabled="true" />
 
     <item
-        android:id="@+id/menu_main_btm_nav_4"
+        android:id="@+id/menu_main_btm_nav_shop"
         android:icon="@drawable/bn4"
         app:showAsAction="always"
         android:enabled="true" />
 
 
     <item
-        android:id="@+id/menu_main_btm_nav_5"
+        android:id="@+id/menu_main_btm_nav_my_page"
         android:icon="@drawable/bn5"
         app:showAsAction="always"
         android:enabled="true" />
