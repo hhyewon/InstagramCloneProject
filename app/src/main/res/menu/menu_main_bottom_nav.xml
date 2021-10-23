@@ -4,39 +4,34 @@
 
     <item
         android:id="@+id/menu_main_btm_nav_home"
-        android:icon="@drawable/ic_total_view_unselected"
+        android:icon="@drawable/bn1"
         app:showAsAction="always"
         android:enabled="true"
-        android:checkable="true"
-        android:title="@string/main_btm_nav_home_title" />
+        android:checkable="true" />
 
     <item
         android:id="@+id/menu_main_btm_nav_my_page"
-        android:icon="@drawable/ic_setting_view_unselected"
+        android:icon="@drawable/bn2"
         app:showAsAction="always"
-        android:enabled="true"
-        android:title="@string/main_btm_nav_my_page_title" />
+        android:enabled="true"/>
 
     <item
         android:id="@+id/menu_main_btm_nav_test"
-        android:icon="@drawable/ic_setting_view_unselected"
+        android:icon="@drawable/bn3"
         app:showAsAction="always"
-        android:enabled="true"
-        android:title="test" />
+        android:enabled="true" />
 
     <item
         android:id="@+id/menu_main_btm_nav_4"
-        android:icon="@drawable/ic_setting_view_unselected"
+        android:icon="@drawable/bn4"
         app:showAsAction="always"
-        android:enabled="true"
-        android:title="test" />
+        android:enabled="true" />
 
 
     <item
         android:id="@+id/menu_main_btm_nav_5"
-        android:icon="@drawable/ic_setting_view_unselected"
+        android:icon="@drawable/bn5"
         app:showAsAction="always"
-        android:enabled="true"
-        android:title="test" />
+        android:enabled="true" />
 
 </menu>
