@@ -13,4 +13,10 @@
     <color name="redForText">#d9534f</color>
 
 
+    <color name="editTextGray">#fffafafa</color>
+    <color name="editTextBorder">#ffdbdbdb</color>
+    <color name="editTextHint">#ff909090</color>
+    <color name="mainColor">#0095f6</color>
+    <color name="viewOr">#dbdbdb</color>
+    <color name="notiColor">#8e8e8e</color>
 </resources>

@@ -21,4 +21,17 @@
     <string name="my_page_btn_counting_number">숫자 세기</string>
     <string name="kakao_app_key">90366e20feca2ef911da795810e23e8b</string>
 
+
+
+    <!-- Login -->
+    <string name="login_main_et_id">아이디</string>
+    <string name="login_main_et_pwd">비밀번호</string>
+    <string name="login_main_tv_forget_pwd">비밀번호를 잊으셨나요?</string>
+    <string name="login_main_tv_login">로그인</string>
+    <string name="login_main_tv_or">또는</string>
+    <string name="login_main_tv_facebook">Facebook으로 로그인</string>
+    <string name="login_main_tv_noti">계정이 없으신가요?</string>
+    <string name="login_main_tv_sign_up">가입하기</string>
+
+
 </resources>
