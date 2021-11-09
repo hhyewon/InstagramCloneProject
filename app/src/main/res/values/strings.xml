@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">SoftSquared Android Kotlin Template</string>
+    <string name="test">test</string>
+    <string name="next">다음</string>
+    <string name="id">hyewon__ovo</string>
 
     <!-- Naming Rules -->
     <!-- 도메인명_컴포넌트함축어_용도(=목적) -->
@@ -32,6 +35,17 @@
     <string name="login_main_tv_facebook">Facebook으로 로그인</string>
     <string name="login_main_tv_noti">계정이 없으신가요?</string>
     <string name="login_main_tv_sign_up">가입하기</string>
+    <string name="login_tv_other_login">다른 계정으로 로그인</string>
+    <string name="login_tv_btm">Instagram에 처음 오셨나요?</string>
 
+
+    <!-- SignUp -->
+
+    <string name="sign_up_main_top">전화번호 또는 이메일 \n주소 입력</string>
+    <string name="sign_up_main_phone_num">전화번호</string>
+    <string name="sign_up_main_email">이메일</string>
+    <string name="sign_up_main_con">KR +82</string>
+    <string name="sign_up_main_noti">Instagram의 업데이트 내용을 SMS로 수신할 수 있으며, 언제든지 수신을 취소할 수 있습니다.</string>
+    <string name="sign_up_main_login_noti">이미 계정이 있으신가요?</string>
 
 </resources>
