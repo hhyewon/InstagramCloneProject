@@ -48,4 +48,11 @@
     <string name="sign_up_main_noti">Instagram의 업데이트 내용을 SMS로 수신할 수 있으며, 언제든지 수신을 취소할 수 있습니다.</string>
     <string name="sign_up_main_login_noti">이미 계정이 있으신가요?</string>
 
+
+
+    <!-- mypage -->
+    <string name="mypage_posting">게시물</string>
+    <string name="mypage_follower">팔로워</string>
+    <string name="mypage_following">팔로잉</string>
+    <string name="mypage_profile_edit">프로필 편집</string>
 </resources>

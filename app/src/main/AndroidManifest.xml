@@ -25,12 +25,21 @@
         <activity
             android:name=".src.main.MainActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar" >
 
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-        <activity android:name=".src.main.login.LoginActivity">
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".src.main.TestActicity1">
+
 
         </activity>
+
+
         <activity android:name="com.kakao.sdk.auth.AuthCodeHandlerActivity">
            <intent-filter>
             <action android:name="android.intent.action.VIEW" />
@@ -43,11 +52,7 @@
 
 
         <activity android:name=".src.main.LoginMainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
     </application>
 
